@@ -1,0 +1,17 @@
+Overloading vs Overriding (Easy Explanation)
+##Method Overloading
+
+Happens within the same class.
+Uses the same method name but with different parameters (different number or types of arguments).
+Occurs at compile-time (early binding).
+Helps to perform similar actions with different inputs.
+The return type can be different.
+There are no restrictions on access modifiers.
+
+##Method Overriding
+Happens in different classes with a parent-child relationship (inheritance).
+Uses the same method name and parameters, but modifies the behavior in the child class.
+Occurs at runtime (late binding).
+Used when you need to change the behavior of a parent class method in a child class.
+The return type must be the same or a child type.
+You cannot reduce visibility (e.g., a public method in the parent class cannot be private in the child class).
