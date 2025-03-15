@@ -1,0 +1,13 @@
+🔹 What is the Object Class?
+Object class is the parent class of all Java classes.
+Every class in Java implicitly extends the Object class unless another class is explicitly extended.
+It provides common methods that all Java objects inherit.
+
+🔹 Important Methods of Object Class
+Method	Description
+toString()	Returns a string representation of the object.
+equals(Object obj)	Compares two objects for equality.
+hashCode()	Returns a hash code for the object.
+getClass()	Returns the runtime class of the object.
+clone()	Creates a duplicate copy of an object.
+finalize()	Called before an object is garbage collected.

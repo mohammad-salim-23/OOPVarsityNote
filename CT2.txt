@@ -1,0 +1,25 @@
+#Final Variable
+
+*Once assigned, the value cannot be changed.
+ Can be assigned at declaration or in the constructor.
+Final reference variables cannot be reassigned, but their content can be modified.
+
+#Final Method
+
+A method marked as final cannot be overridden in subclasses.
+Ensures method behavior remains unchanged in inheritance.
+
+#Final Class
+
+A final class cannot be inherited (extended).
+Used to prevent modification of class behavior.
+
+#Final with Static
+
+static final variables are constants (shared by all instances).
+Typically written in UPPERCASE (e.g., PI = 3.14159).
+
+Use Cases of final
+✔ Prevents accidental modification of important variables.
+✔ Ensures methods remain unchanged in subclasses.
+✔ Prevents unwanted inheritance for security and performance reasons.

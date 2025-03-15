@@ -10,3 +10,5 @@ When you want to create shared resources (e.g., a counter that all objects shoul
 When a method does not depend on object data (e.g., Math.pow()).
 When you need a common utility method that should be called without creating an object.
 
+"fuler moto ful hote cai, fuler moto ful"
+
